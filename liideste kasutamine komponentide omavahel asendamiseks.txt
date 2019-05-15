@@ -1,0 +1,10 @@
+Saab kasutada objektide kirjeldamiseks. Värvus, kõrgus, laius. Vajab klassi, mis teda kasutaks, mitmed klassid saavad üht liidest kasutada. Muus osas on liides kasutatav klassina, saab kirjeldada liidesetüüpi objekte ning liidesemeetodite abil nendega manipuleerida ja luua alamliideseid. Programmi töötamiseks on vajalik abstraktsed omadused realiseerida, seda saab teha liideste abil.
+
+public interface MyInterface {
+
+    public String hello = "Hello";
+
+    public void sayHello();
+}
+
+System.out.println(MyInterface.hello);
